@@ -1,0 +1,66 @@
+body {
+    background-color: black;
+}
+
+
+
+#timers-container {
+    background-color: black;
+    width: 100%;
+    height: 600px;
+}
+
+.timerblock {
+    width: 100%;
+    height: 150px;
+    margin-top: 10px;
+    border: 2px;
+    border-color: white;
+    border-style: solid;
+    padding: 5px;
+}
+
+
+.timecounter {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white;
+    font-size: 23px;
+    font-family: Helvetica;
+    margin-bottom: 20px;
+    padding: 20px;
+
+}
+
+.btn {
+    display: flex;
+    align-items: flex-start;
+    text-align: center;
+    cursor: pointer;
+    color: snow;
+    background-color: blue;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonface;
+    border-image: initial;
+    border-radius: 25px;
+    margin: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    font: 400 14.3333px Helvetica;
+    position: relative;
+    left: -14px;
+    top: -104px;
+}
+
+.line {
+    width: 720px;
+
+    height: 40px;
+    position: relative;
+    bottom: 105px;
+    left: 0;
+    transition: width 1s;
+    background-color: gold;
+}
